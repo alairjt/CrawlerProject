@@ -14,7 +14,6 @@ The Crawler Project
 
 ## Run Crawler
 - `git clone git@github.com:alairjt/CrawlerNode.git`
-- `npm install -g codecov`
 - `npm install`
 - `npm start`
 
