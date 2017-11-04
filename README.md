@@ -3,7 +3,9 @@ The Crawler Project
 
 # Run projects
 
-## Run API and Web with Docker Compose 
+## Run API and Web with Docker Compose
+- `git clone git@github.com:alairjt/CrawlerProject.git`
+- `cd CrawlerProject`
 - `docker-compose up` (Check if the “sudo” permission will be necessary to run this command)
 
 ### API
