@@ -7,10 +7,10 @@ The Crawler Project
     - `docker-compose up`
 
 #### API
-    - http://localhost:5000/deputies
+    - [http://localhost:5000/deputies](http://localhost:5000/deputies)
 
 #### Web
-    - http://localhost:3000
+    - [http://localhost:3000](http://localhost:3000)
 
 ### Run Crawler
     - `git clone git@github.com:alairjt/CrawlerNode.git`
@@ -19,6 +19,6 @@ The Crawler Project
     - `npm start`
 
 ## Projects
-    - https://github.com/alairjt/CrawlerNodeAPI
-    - https://github.com/alairjt/CrawlerNodeWeb
-    - https://github.com/alairjt/CrawlerNode
+    - [CrawlerNodeAPI](https://github.com/alairjt/CrawlerNodeAPI)
+    - [CrawlerNodeWeb](https://github.com/alairjt/CrawlerNodeWeb
+    - [Crawler](https://github.com/alairjt/CrawlerNode)
