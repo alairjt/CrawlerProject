@@ -12,8 +12,9 @@ The Crawler Project
 ### Web
 - [http://localhost:3000](http://localhost:3000)
 
-## Run Crawler
+## Run Crawler to populate database API
 - `git clone git@github.com:alairjt/CrawlerNode.git`
+- `cd CrawlerNode`
 - `npm install`
 - `npm start`
 
