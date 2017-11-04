@@ -1,0 +1,19 @@
+db:
+  image: mongo
+  ports:
+    - "27017:27017"
+  command: "--smallfiles --logpath=/dev/null"
+api:
+  build: https://github.com/alairjt/CrawlerNodeAPI.git
+  command: npm start
+  volumes:
+    - .:/crawlernodeapi
+  ports:
+    - "5000:5000"
+  links:
+    - db
+crawler:
+    build: https://github.com/alairjt/CrawlerNode.git
+    command: npm start
+    links:
+      - "api"
