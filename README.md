@@ -4,7 +4,7 @@ The Crawler Project
 # Run projects
 
 ## Run API and Web with Docker Compose 
-- `docker-compose up`
+- `docker-compose up` (Check if the “sudo” permission will be necessary to run this command)
 
 ### API
 - [http://localhost:5000/deputies](http://localhost:5000/deputies)
