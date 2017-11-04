@@ -9,7 +9,7 @@ The Crawler Project
 - `docker-compose up` (Check if the “sudo” permission will be necessary to run this command)
 
 ### API
-- [http://localhost:5000/deputies](http://localhost:5000/api/deputies)
+- [http://localhost:5000/api/deputies](http://localhost:5000/api/deputies)
 
 ### Web
 - [http://localhost:3000](http://localhost:3000)
