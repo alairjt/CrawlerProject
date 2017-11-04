@@ -12,8 +12,10 @@ api:
     - "5000:5000"
   links:
     - db
-crawler:
-    build: https://github.com/alairjt/CrawlerNode.git
-    command: npm start
-    links:
-      - "api"
+web:
+  build: https://github.com/alairjt/CrawlerNodeWeb.git
+  volumes:
+      - '/usr/src/app'
+      - '/usr/src/app/node_modules'
+  ports:
+    - "3000:3000"
